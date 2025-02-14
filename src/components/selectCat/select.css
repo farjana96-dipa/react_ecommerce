@@ -1,0 +1,68 @@
+.selectDrop{
+    width:200px;
+    height: 300px;
+    border:1px solid rgba(0,0,0,0.2);
+    position: absolute;
+    top:30px;
+    left:0px;
+    z-index: 100;
+    overflow-y:scroll;
+    background-color: #fff;
+    box-shadow: 0px 3px 6px rgba(0 0 0 / 20%);
+    opacity: 1;
+    
+}
+
+.selectDrop .openSelect{
+    margin-top:-30px !important;
+    cursor: pointer !important;
+  
+}
+
+.sicon{
+    margin-left:5px !important;
+}
+
+.selectDrop .search_field{
+    margin-top:0px;
+    padding:10px;
+}
+
+.selectDrop input{
+    width:100%;
+    height: 40px;
+    padding:10px;
+    border:1px solid var(--primary);
+    outline:none !important;
+}
+
+.selectDrop .search_result{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    align-items: baseline;
+    padding:10px 10px;
+    
+}
+
+.selectDrop .search_result li{
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    cursor: pointer;
+    padding:05px 10px;
+    
+}
+
+.selectDrop .search_result li:hover{
+    background-color: rgba(53, 172, 117, 0.8);
+    color: #fff;
+    cursor: pointer;
+}
+
+.selectDrop .search_result li.active{
+    background-color: var(--primary);
+    color: #fff;
+}

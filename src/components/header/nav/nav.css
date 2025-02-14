@@ -1,0 +1,95 @@
+
+
+.nav{
+    width: 100%;
+    padding: 10px;
+    margin:auto;
+    border-top: 1px solid rgba(53, 172, 117, 0.3);
+    border-bottom: 1px solid rgba(53, 172, 117, 0.3);
+    
+}
+
+.nav button i{
+    margin:0px 7px;
+}
+nav{
+    width: 100%;
+   
+    margin:auto;
+    padding: 10px;
+    margin-bottom: -20px;
+}
+
+nav button{
+    background-color: transparent !important;
+    border:none !important;
+    outline:none !important;
+}
+nav button a{
+    text-decoration: none !important;
+    color: #000 !important;
+    padding: 08px 15px;
+   
+}
+
+nav button:hover{
+    background-color: rgba(135, 207, 235, 0.815) !important;
+}
+
+
+.part3{
+    margin-bottom: -10px;
+}
+
+.part3 i{
+   
+    padding:10px;
+    border-radius: 100%;
+    color:#35AC75;
+    font-size:30px;
+    margin-top:-5px;
+   
+}
+.phoneNumber button .phoneText{
+    font-size:25px;
+    font-weight: 700;
+    color:#35AC75;
+}
+
+.secondPart{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2px;
+    
+}
+
+.secondPart .phoneText{
+    font-size:20px;
+    color: #35AC75;
+    font-weight:600;
+    line-height: 25px;
+    margin-bottom: 03px;
+}
+.pages{
+    position: relative;
+}
+
+.dropdown_menu{
+    position: absolute;
+    top:30px;
+    list-style-type: none;
+    width:100%;
+    margin:0;
+    padding:30px 05px 30px 10px;
+    background-color: #fff;
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.3);
+    text-align: left;
+}
+
+.dropdown_menu a{
+    display: inline-block;
+    text-decoration: none;
+    color:#000;
+    padding:10px 05px;
+
+}
