@@ -1,4 +1,4 @@
-import React, { Component, useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Select from '../selectCat/select.js';
 import './header.css'
 import logo from '../../assets/images/logo.jpeg'

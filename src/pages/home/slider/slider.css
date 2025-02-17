@@ -1,0 +1,126 @@
+
+.sliderhero img{
+    width:100%;
+    border-radius: 35px;
+  
+   
+}
+.sliderhero{
+    position: relative;
+    padding:0px 20px;
+}
+
+.sliderhero .slick-arrow{
+    position: absolute;
+    top:50%;
+    width:50px !important;
+    height: 50px !important;
+   
+    background-color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+   
+    z-index: 99999;
+}
+.sliderhero .slick-arrow:focus{
+    background-color:#fff !important;
+    z-index: 99999;
+}
+
+.sliderhero .slick-arrow:hover{
+    background-color:  #fff !important;
+    z-index: 99999;
+}
+.sliderhero .slick-arrow.slick-prev{
+    left: 35px !important;
+}
+.sliderhero .slick-arrow.slick-next{
+    right: 35px !important;
+}
+
+.sliderhero .slick-prev:before, .slick-next:before{
+    font-size: 25px !important;
+    color: #35AC75;
+}
+
+.sliderhero .slick-next:before{
+    content: '\f178' !important;
+    color: #35AC75 !important;
+    font-family: FontAwesome;
+}
+
+.sliderhero .slick-prev:before{
+    content: '\f177' !important;
+    color: #35AC75 !important;
+    font-family: FontAwesome;
+}
+
+.item_info{
+    position: absolute;
+    top:25%;
+    left:8%;
+}
+
+.sliderhero .item_info h2{
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 75px;
+    color: #000;
+}
+
+.sliderhero .item_info h3{
+    font-size:22px;
+    font-weight: 500;
+    line-height: 30px;
+    margin:20px 0px 50px 0px;
+}
+
+.newsletter{
+    width:500px;
+    height: auto;
+    position: absolute;
+    bottom:28%;
+    left: 11%;
+}
+.newsletter input{
+    width: 100%;
+    padding:22px 17px 22px 50px;
+    border:none;
+    outline: none;
+    border-radius: 35px;
+    background-color: #fff;
+    display: block;
+}
+
+.news-btn{
+    position: absolute;
+    top:66px;
+    right:-5px;
+    background-color: rgba(21, 115, 71, 0.5) !important;
+    padding:20px 65px;
+    font-size:16px;
+    font-weight: 500;
+    color:#fff;
+    border-radius: 35px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    margin-top: -65px;
+    float: right;
+    margin-right: 7px;
+    
+}
+
+.news-btn:hover{
+    background-color: #35AC75 !important;
+    color:#fff !important;
+}
+
+.news-icon{
+    position: absolute;
+    font-size: 20px;
+    color: #000;
+    left: 15px;
+    top: 22px;
+    
+}
+    
