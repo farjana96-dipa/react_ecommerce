@@ -79,7 +79,7 @@
     width:500px;
     height: auto;
     position: absolute;
-    bottom:28%;
+    bottom:0;
     left: 11%;
 }
 .newsletter input{

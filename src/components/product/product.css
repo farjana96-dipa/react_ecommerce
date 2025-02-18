@@ -1,0 +1,15 @@
+.productThumb{
+    width: 100%;
+    height: 300px;
+    border:1px solid rgba(0,0,0,0.4);
+    border-radius: 12px;
+    padding: 15px;
+}
+.imgWrap{
+    height: 100%;
+}
+.imgWrap img{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}

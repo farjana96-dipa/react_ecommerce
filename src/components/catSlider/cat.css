@@ -1,45 +1,54 @@
 
 
 .catSlider{
-    height: 450px !important;
+    height: auto;
     width: 100%;
-    padding:50px 20px;
+    padding:0px 20px;
 }
-.cat-slider .item{
-    height:300px;
-    width:300px;
-    margin-right:20px;
-    background-color: #fff;
-    box-shadow: 0px 3px 6px rgba(100, 100, 111, 0.4);
-    padding: 20px;
+.cat-slider{
+    padding:30px 0px;
+}
+.cat-slider .item1{
     text-align: center;
-    border-radius: 5px;
-
+    cursor: pointer;
 }
-.cat-slider .item .item_info h4{
+.cat-slider .item1 .item1_info{
+  text-align: center;
+  padding:10px;
+  border-radius: 12px;
+  border:1px solid #0000002d;
+  transition: all 0.3s ease;
+}
+
+.cat-slider .item1_info:hover{
+    border:1px solide #35ac7591;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.cat-slider .item1  h4{
     color: #000;
     font-size: 18px;
     font-weight: 600;
-    line-height: 30px;
+    line-height: 24px;
 }
 .cat-slider .slick-slide{
-    width:250px !important;
-    height: 350px !important;
     margin-right: 20px !important;
-    padding: 50px 0px;
+    padding: 0px;
+
 }
-.cat-slider .item img{
-    width: 70%;
-    margin:20px auto;
+.cat-slider .item1 img{
+    width: 60%;
+    margin:8px auto;
 }
-.cat-slider .item .item_info{
-    background-color: green;
-    color: #fff;
+.cat-slider .item1 p{
+   font-size:12px;
+   font-weight: 500;
+   line-height: 20px;
 }
 
 .cat-slider .slick-arrow{
     position: absolute;
-    top:50%;
+    top:-20px;
     width:50px !important;
     height: 50px !important;
     border-radius: 50%;
@@ -58,7 +67,7 @@
     z-index: 99999;
 }
 .cat-slider .slick-arrow.slick-prev{
-    left: 35px !important;
+   left: 91% !important;
 }
 .cat-slider .slick-arrow.slick-next{
     right: 35px !important;

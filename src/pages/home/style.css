@@ -4,3 +4,37 @@
     padding:0px;
     margin:100px auto;
 }
+
+.homeProducts{
+    width: 100%;
+    padding:0px 20px 50px 20px;
+}
+
+.filterTabs .list-group-item{
+    border:none !important;
+}
+
+.filterTabs .list-group-item a{
+    text-decoration: none !important;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.filterTabs .list-group-item:hover a{
+    color: #0aad4e;
+    transform: translateY(-10px);
+}
+
+.productRow{
+    display: flex;
+    padding: 20px;
+}
+
+.productRow .productItem{
+    width:300px;
+    height: auto;
+}
