@@ -1,0 +1,49 @@
+.newsletter{
+    width:500px;
+    height: auto;
+    position: absolute;
+    bottom:0;
+    left: 11%;
+}
+.newsletter input{
+    width: 100%;
+    padding:22px 17px 22px 50px;
+    border:none;
+    outline: none;
+    border-radius: 35px;
+    background-color: #fff;
+    display: block;
+}
+
+.news-btn{
+    position: absolute;
+    top:66px;
+    right:-5px;
+    background-color: rgba(21, 115, 71, 0.5) !important;
+    padding:20px 65px;
+    font-size:16px;
+    font-weight: 500;
+    color:#fff;
+    border-radius: 35px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    margin-top: -65px;
+    float: right;
+    margin-right: 7px;
+    
+}
+
+.news-btn:hover{
+    background-color: #35AC75 !important;
+    color:#fff !important;
+}
+
+.news-icon{
+    position: absolute;
+    font-size: 20px;
+    color: #000;
+    left: 15px;
+    top: 22px;
+    
+}
+    

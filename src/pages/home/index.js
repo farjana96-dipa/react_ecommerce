@@ -8,6 +8,7 @@ import Product from '../../components/product/index.js'
 import bannerImg from '../../assets/images/file_1734525767798_NewProject(35).jpg'
 import Tproduct from './topProduct/index.js'
 
+
 const home = () => {
 
     var settings = {
@@ -153,15 +154,12 @@ const home = () => {
                 <div className='col-md-3'>
                          <Tproduct title="Top Rated" className="titem"/>
                 </div>
-            </div>
-
-
-            
-          
+            </div> 
         </div>
       </div>
 
 
+     
 
 
 

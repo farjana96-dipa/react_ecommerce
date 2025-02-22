@@ -18,6 +18,7 @@ function App() {
         <Route exact={true} path='/blogs' element={<Blogs />}></Route>
         
       </Routes>
+      <Footer />
    </BrowserRouter>
   );
 }
