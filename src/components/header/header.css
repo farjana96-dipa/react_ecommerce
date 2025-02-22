@@ -24,6 +24,17 @@ header{
     height:80px;
     padding:10px 20px;
     margin:0;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+header.fixed{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    z-index: 999999999999999;
+    background-color: #fff;
+    top:-80px;
 }
 .head_search{
     width: 100%;

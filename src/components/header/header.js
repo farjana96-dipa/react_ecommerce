@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState,useRef } from 'react'
 import Select from '../selectCat/select.js';
 import './header.css'
 import logo from '../../assets/images/logo.jpeg'
@@ -8,6 +8,23 @@ import Nav from './nav/nav.js'
 import axios from 'axios'
 
 export default function Header(){
+
+const headerRef = useRef(null);
+
+useEffect(()=>{
+  window.addEventListener("scroll",()=>{
+    let position = window.pageYOffset;
+    if(headerRef.current){
+      if(position>100){
+        headerRef.current.classList.add('fixed');
+      }
+      else{
+        headerRef.current.classList.remove('fixed');
+      }
+    }
+   
+  })
+},[])
 
 const [Categories, setCategories] = useState([
  
@@ -58,7 +75,7 @@ const openAccount = ()=>{
 }
 
     return (
-      <header>
+      <header ref={headerRef}>
         <div className='container-fluid'>
             <div className='row'>
                 <div className='col-sm-2'>

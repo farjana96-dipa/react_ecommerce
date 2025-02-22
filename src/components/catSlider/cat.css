@@ -55,16 +55,16 @@
     cursor: pointer;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     background-color: #fff;
-    z-index: 99999;
+    z-index: 99;
 }
 .cat-slider .slick-arrow:focus{
     
-    z-index: 99999;
+    z-index: 99;
 }
 
 .cat-slider .slick-arrow:hover{
     
-    z-index: 99999;
+    z-index: 99;
 }
 .cat-slider .slick-arrow.slick-prev{
    left: 91% !important;

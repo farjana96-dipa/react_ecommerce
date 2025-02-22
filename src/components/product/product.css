@@ -1,15 +1,133 @@
 .productThumb{
     width: 100%;
-    height: 300px;
-    border:1px solid rgba(0,0,0,0.4);
-    border-radius: 12px;
-    padding: 15px;
+    height: auto;
+    border:1px solid rgba(0,0,0,0.2);
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    overflow: hidden;
+    position: relative;
+}
+
+.pbadge{
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 9999;
+    padding:5px 30px;
+    border-radius: 25px 0px 35px 0px;
+    color:#fff;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.pbadge.hot{
+    background-color: red;
+}
+.pbadge.sale{
+    background-color: #02c96c;
+}
+
+.pbadge.new{
+    background-color: rgb(3, 211, 211);
+}
+
+.pbadge.best{
+    background-color: rgb(255, 10, 235);
+}
+.productThumb:hover{ 
+   box-shadow: 0px 3px 6px rgba(11, 226, 126, 0.16), 0 3px 6px rgba(11, 226, 126, 0.13);
+   border: 1px solid #0be27e4d;
+   transform: translateY(-10px);
 }
 .imgWrap{
     height: 100%;
+    position: relative;
 }
 .imgWrap img{
     width: 100%;
+    height: 180px;
+    border-radius: 12px 12px 0px 0px;
+}
+.productInfo{
+    margin-top:15px;
+    padding: 10px 15px;
+}
+.productInfo .brand{
+    font-size:14px;
+    line-height: 20px;
+}
+
+.productInfo h4{
+    font-size:16px;
+    font-weight: 600;
+    line-height: 30px;
+}
+.css-i0l71t-MuiRating-root{
+    font-size: 30px;
+}
+.productInfo .by{
+    color: gray;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-right: 5px;
+}
+.productInfo .author{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 28px;
+    color: #000;
+}
+
+.productInfo .price p{
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+}
+.productInfo .price del{
+    margin-left: 20px;
+    margin-top:-7px;
+    font-size:16px;
+    font-weight: 400;
+    color: gray !important;
+}
+
+.cart{
+    background-color: #07a75cb0;
+    color:#fff;
+    font-size:14px;
+    font-weight: 600;
+    line-height: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding:5px 12px !important;
+    border:none;
+    outline: none;
+}
+
+.imgWrap .overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: rgba(0,0,0,0.4);
+    padding: 10px;
+    width: 100%;
     height: 100%;
-    border-radius: 12px;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+.imgWrap .overlay .icons{
+    margin:50px 25px !important;
+}
+.imgWrap .overlay ul li a i{
+    color: #3bb77e !important;
+}
+.imgWrap .overlay ul li:hover i{
+    color: #000 !important;
+}
+.productThumb:hover .overlay{
+    opacity: 1;
 }

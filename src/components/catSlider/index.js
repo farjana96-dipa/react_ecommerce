@@ -48,7 +48,8 @@ const [img, setImg] = useState([
     infinite: true,
     speed: 500,
     slidesToShow: 10,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    centerMode: true
   };
   return (
     <section className="catSlider">

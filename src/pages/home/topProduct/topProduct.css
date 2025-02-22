@@ -1,0 +1,80 @@
+.sel-box .htitle{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 35px;
+    cursor: pointer;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(0,0,0,0.3);
+    position: relative;
+}
+
+.sel-box .htitle:after{
+   content: '';
+   width: 40%;
+   background-color: rgb(4, 163, 4);
+   height: 3px;
+   position: absolute;
+   bottom: -2px;
+   left: 0;
+}
+
+.sel-box .htitle:before{
+    content: '';
+    width: 40%;
+    background-color: rgb(4, 163, 4);
+    height: 3px;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+ }
+
+.sel-box{
+    width:100%;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+.sel-box .items{
+         transition: all 0.5s ease;
+}
+.sel-box .items:hover{
+   transform: translateY(-10px);
+}
+.sel-box .items .proImg{
+    width:30%;
+    border-radius: 8px;
+    background-color: rgba(0,0,0,0.035);
+    padding: 15px;
+}
+
+.sel-box .pInfo{
+    width:70%;
+    padding-left: 15px;
+}
+ .proImg img{
+    width: 100%;
+ }
+
+ .pInfo h4{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+ }
+  .sel-box .items:hover .pInfo h4{
+   color:rgb(2, 155, 2);
+  }
+ .pInfo .css-i0l71t-MuiRating-root{
+    font-size: 20px !important;
+ }
+
+ .pInfo .price{
+    font-size: 15px;
+    font-weight: 600;
+    color:rgb(2, 155, 2);
+ }
+
+ .pInfo .oldprice{
+    font-size:13px;
+    font-weight: 400;
+    color: gray;
+    margin-left:15px;
+ }
