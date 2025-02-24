@@ -7,6 +7,8 @@ import Banner from '../../components/banners/index.js'
 import Product from '../../components/product/index.js'
 import bannerImg from '../../assets/images/file_1734525767798_NewProject(35).jpg'
 import Tproduct from './topProduct/index.js'
+import newsImage from '../../assets/images/banner4.avif'
+import Newsletter from '../../components/newsletter/index.js';
 
 
 const home = () => {
@@ -159,7 +161,26 @@ const home = () => {
       </div>
 
 
-     
+     <div className='newsLetterSection'>
+      
+            <div className='row'>
+                <div className='col-md-6'>
+                    <div className='container'>
+                    <div className='news'>
+                            <h2>Get in touch, by Subscribe our newsletter</h2>
+                           <Newsletter />
+                    </div>
+                        
+                        </div>
+                    </div>
+
+
+                    <div className='col-md-6 box'>
+                        <img src={newsImage}/>
+                    </div>
+            </div>
+        
+     </div>
 
 
 

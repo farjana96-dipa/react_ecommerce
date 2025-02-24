@@ -116,6 +116,21 @@ export default class footer extends Component {
                 </ul>
             </div>
           </div>
+
+         <hr />
+
+         <div className='copyright d-flex align-items-center'>
+            <div className='copy_text'>
+              <p>&copy; 2024 All rights reserved farjana-dipa.com </p>
+            </div>
+            <div className='social_icon d-flex align-items-center ms-auto'>
+              <h4>Follow Me: </h4>
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin"></i>
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+         </div>
         </div>
       </footer>
     )

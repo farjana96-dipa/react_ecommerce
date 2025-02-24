@@ -100,13 +100,32 @@
     padding: 80px 0px !important;
 }
 
-.newsLetterSection .box{
-    background-color: #0aad4e88;
+.newsLetterSection{
+    background-color: #86BB11;
     width:100%;
-    height: 600px;
+    height: 400px;
     
 }
 
 .newsLetterSection{
     position: relative;
+}
+
+.newsLetterSection .box img{
+    width:100%;
+    height: 400px;
+    
+}
+
+.newsLetterSection h2{
+    font-size:45px;
+    font-weight: 700;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+   
+}
+.news{
+    padding:100px 0px 80px 180px;
 }

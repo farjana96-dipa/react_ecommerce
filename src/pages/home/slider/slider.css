@@ -6,8 +6,12 @@
    
 }
 .sliderhero{
-    position: relative;
+    
     padding:0px 20px;
+}
+
+.heroSlider{
+    position: relative;
 }
 
 .sliderhero .slick-arrow{
@@ -59,6 +63,8 @@
     position: absolute;
     top:25%;
     left:8%;
+
+
 }
 
 .sliderhero .item_info h2{
@@ -72,6 +78,6 @@
     font-size:22px;
     font-weight: 500;
     line-height: 30px;
-    margin:20px 0px 50px 0px;
+    margin:20px 0px 150px 0px;
 }
 
