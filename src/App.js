@@ -8,6 +8,10 @@ import Home from './pages/home/index.js'
 
 import Listing from './pages/listing/index.js';
 
+import Notfound from './pages/notfound/index.js';
+
+import ProductDetails from './pages/productDetails/index.js';
+
 function App() {
   return (
    <BrowserRouter>
@@ -16,6 +20,10 @@ function App() {
         <Route exact={true} path='/' element={<Home />}></Route>
      
         <Route exact={true} path='/listing' element={<Listing />}></Route>
+
+        <Route path='*' element={<Notfound />}></Route>
+
+        <Route path='/productDetails' element={<ProductDetails />}></Route>
         
       </Routes>
       <Footer />

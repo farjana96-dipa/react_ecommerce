@@ -1,9 +1,15 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './listing.css'
 import Sidebar from '../../components/sidebar/index.js'
 import Product from '../../components/product/index.js'
 
-export default function listing() {
+export default function Listing() {
+
+const [show, setShow] = useState(false);
+
+const [show2, setShow2] = useState(false);
+
+
   return (
     <div className='listing_page'>
         <div className='container-fluid py-5'>
@@ -31,26 +37,47 @@ export default function listing() {
               </div>
 
               <div className='col-md-9 right_content'>
-                <div className='topStrip py-3'>
+                <div className='topStrip py-3 d-flex align-items-center'>
                   <p>We are found <strong className='text-success'>29</strong> items for you.</p>
-                  <div className='d-flex align-items-center ms-auto'>
+                  <div className='ms-auto'>
+                   
+                    
+                    <div className='d-flex  ms-auto'>
                     <div className='tab '>
-                      <button className='btn'><i class="fa-solid fa-eye me-2"></i> Show: 50</button>
-                      <div className='dropdown'>
-                        <ul>
-                          <li>Show: 20</li>
-                          <li>Show: 30</li> 
-                          <li>Show: 40</li>
-                          <li>Show: 50</li>
-                          <li>Show: 60</li>
-                        </ul>
-                      </div>
+                      <button className='btn' onClick={()=>setShow(!show)}><i class="fa-solid fa-eye me-2"></i> Show: 50</button>
+                          {
+                            show && 
+                            <div className='dropdown'>
+                              <ul>
+                                <li>Show: 20</li>
+                                <li>Show: 30</li> 
+                                <li>Show: 40</li>
+                                <li>Show: 50</li>
+                                <li>Show: 60</li>
+                              </ul>
+                            </div>
+                          }
+                    
                     </div>
 
                     <div className='tab ms-auto'>
-                      <button className='btn'><i class="fa-solid fa-list me-2"></i> Filter By: Featured</button>
+                      <button className='btn' onClick={()=>setShow2(!show2)}><i class="fa-solid fa-list me-2"></i> Filter By: Featured</button>
+
+                      {
+                            show2 && 
+                            <div className='dropdown2'>
+                              <ul>
+                                <li>Featured</li>
+                                <li>Best Selling</li> 
+                                <li>Price: Low to High</li>
+                                <li>Price: High to Low</li>
+                              </ul>
+                            </div>
+                      }
                     </div>
                   </div>
+                  </div>
+                  
                 </div>
                 <div className='productRow'>
                   <div className='item'>

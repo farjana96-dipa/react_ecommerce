@@ -1,0 +1,43 @@
+.notFound{
+    width:100%;
+    margin:0px auto;
+    padding: 80px 30px;
+}
+
+.notFound .not{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.not h2{
+    font-size:45px;
+    font-weight: 700;
+    line-height: 55px;
+    color: #000;
+    margin-top:-30px;
+}
+
+.not p{
+    font-size:16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #000;
+}
+
+.not img{
+    width:30%;
+}
+
+.not button{
+   
+    border-radius: 8px;
+    padding:10px 45px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.5s ease;
+}
