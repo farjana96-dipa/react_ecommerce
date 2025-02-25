@@ -1,6 +1,7 @@
 import React from 'react'
 import './listing.css'
 import Sidebar from '../../components/sidebar/index.js'
+import Product from '../../components/product/index.js'
 
 export default function listing() {
   return (
@@ -22,11 +23,59 @@ export default function listing() {
             </div>
 
             <div className='row'>
-              <div className='col-md-3'>
+              <div className='col-md-3 left_content'>
                 <div className='sidebar_section'>
                   <Sidebar />
                 </div>
                
+              </div>
+
+              <div className='col-md-9 right_content'>
+                <div className='topStrip py-3'>
+                  <p>We are found <strong className='text-success'>29</strong> items for you.</p>
+                  <div className='d-flex align-items-center ms-auto'>
+                    <div className='tab '>
+                      <button className='btn'><i class="fa-solid fa-eye me-2"></i> Show: 50</button>
+                      <div className='dropdown'>
+                        <ul>
+                          <li>Show: 20</li>
+                          <li>Show: 30</li> 
+                          <li>Show: 40</li>
+                          <li>Show: 50</li>
+                          <li>Show: 60</li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div className='tab ms-auto'>
+                      <button className='btn'><i class="fa-solid fa-list me-2"></i> Filter By: Featured</button>
+                    </div>
+                  </div>
+                </div>
+                <div className='productRow'>
+                  <div className='item'>
+                    <Product />
+                  </div>
+
+                  <div className='item'>
+                    <Product />
+                  </div>
+
+                  <div className='item'>
+                    <Product />
+                  </div>
+
+                  <div className='item'>
+                    <Product />
+                  </div>
+
+                  <div className='item'>
+                    <Product />
+                  </div>
+
+                 
+                  
+                </div>
               </div>
             </div>
         </div>

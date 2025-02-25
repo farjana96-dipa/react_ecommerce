@@ -2,7 +2,7 @@ import React from 'react'
 import './product.css'
 import { Rating } from '@mui/material';
 
-import img from '../../assets/images/file_1734774478545_1017934b-ebb7-4394-ab4e-8033671295541721124227083ASTEROIDMenColourblockedSuedeSneakers1.jpg'
+import img from '../../assets/images/girl.png'
 
 const product = (props) => {
   return (
@@ -12,7 +12,10 @@ const product = (props) => {
       }
       
         <div className='imgWrap'>
-            <img src={img} alt='product_img'/>
+          <div className='d-flex align-items-center'>
+          <img src={img} alt='product_img'/>
+            </div>
+           
             <div className='overlay'>
                   <ul class="list-group list-group-horizontal ms-auto icons">
                       <li class="list-group-item" tooltip="Add to Wishlist"><a href='#'><i class="fa-regular fa-heart"></i></a></li>
