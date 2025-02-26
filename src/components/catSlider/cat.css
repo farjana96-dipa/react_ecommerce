@@ -79,13 +79,14 @@
 }
 
 .cat-slider .slick-next:before{
-    content: '\f053' !important;
+    content: '\f054' !important;
     color: #35AC75 !important;
     font-family: FontAwesome;
 }
 
 .cat-slider .slick-prev:before{
-    content: '\f054' !important;
+    content: '\f053' !important;
     color: #35AC75 !important;
     font-family: FontAwesome;
 }
+
