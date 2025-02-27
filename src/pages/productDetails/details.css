@@ -12,6 +12,10 @@ body{
     background-repeat: no-repeat;
 }
 
+.box h2{
+    color: #fff !important;
+}
+
 .productImg img{
     width:100%;
     transition: all 0.5s ease;
@@ -51,7 +55,7 @@ body{
     margin-top: -10px !important;
 }
 
-.price{
+.productDetails .price1{
     font-size: 35px;
     font-weight: 700;
     font-family: 'Lato', sans-serif;
@@ -88,8 +92,15 @@ body{
 .zoomSlider .item2{
     text-align: center;
     cursor: pointer;
+    margin:20px 0px;
+    border-radius: 15px;
+    transition: all 0.7s ease-in-out;
 }
 
+.zoomSlider .item2  img:hover{
+    transform: scale3d(1.05, 1.05, 1.05);
+    border-radius: 8px;
+}
 
 .zoomSlider .slick-slide{
     margin-right: 20px !important;
@@ -192,4 +203,172 @@ body{
     line-height: 30px;
     color: #000;
     margin-left: 10px !important;
+}
+
+
+.quantity button{
+    background-color: rgba(0,0,0,0.05);
+    padding: 8px 12px;
+    border-radius: 100%;
+    border:1px solid rgba(0,0,0,0.1);
+    cursor: pointer;
+    color: #000;
+    transition: all 0.5s ease;
+    margin:0px 15px;
+}
+
+.quantity p{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #000;
+    margin-top:15px;
+}
+.cart1{
+    padding:10px 25px !important;
+    background-color: green;
+    color: #fff;
+    border:none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.wish{
+    background-color: #fff;
+    border:1px solid rgba(0,0,0,0.1);
+    border-radius: 5px;
+    color: #000;
+    padding: 10px 15px;
+    margin-left: 25px;
+}
+
+
+.compare{
+    background-color: #fff;
+    border:1px solid rgba(0,0,0,0.1);
+    border-radius: 5px;
+    color: #000;
+    padding: 10px 15px;
+    margin-left: 25px;
+}
+
+
+.customTabs ul li a{
+    background-color: #fff;
+    border:1px solid rgba(0,0,0,0.1);
+    border-radius: 35px;
+    color: green !important;
+    padding: 12px 25px;
+    margin-left: 15px;
+    font-size:16px;
+    font-weight: 600 !important;
+    transition: all 0.3s ease;
+}
+
+.customTabs ul li a:hover{
+    background-color: green;
+    color: #fff;
+    border:1px solid green;
+}
+
+.tabContent h4{
+    font-size: 25px;
+    font-weight: 600;
+    color: #000;
+}
+.tabContent{
+    padding: 50px;
+}
+
+.tabContent .imgWrap{
+    width:80px;
+    height: 80px;
+    border:1px solid rgba(0,0,0,0.1);
+    border-radius: 50%;
+    overflow: hidden;
+    text-align: center;
+}
+.tabContent .imgWrap img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin:2px auto;
+}
+
+.tabContent  .uname{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #000;
+
+   
+    margin-bottom: 0px !important;
+}
+
+.tabContent .card{
+    padding: 10px 20px;
+}
+
+.tabContent .date{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #000;
+
+}
+
+.tabContent .review{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(0,0,0,0.4);
+    margin-bottom: -20px;
+}
+
+.reviewForm input{
+    padding: 12px 15px;
+}
+
+.reviewForm ::placeholder{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(0,0,0,0.4);
+}
+
+.reviewForm .submitBtn{
+    padding: 12px 65px !important;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 35px !important;
+    cursor: pointer;
+    transform: all 0.3s ease;
+}
+
+.relatedProducts .productItem{
+    margin-right: 20px;
+} 
+
+
+.product-slider .slick-next:before{
+    content: '\f054' !important;
+    color: #fcfffe !important;
+    font-family: FontAwesome;
+}
+
+.product-slider .slick-prev:before{
+    content: '\f053' !important;
+    color: #fdfdfd !important;
+    font-family: FontAwesome;
+}
+
+
+.relatedProducts h3{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 35px;
+    margin:20px 0px;
 }
