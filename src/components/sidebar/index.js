@@ -135,7 +135,7 @@ export default function Sidebar() {
       </div>
       </div>
 
-      <img src={banner1} className='banner'/>
+     
     </div>
   )
 }

@@ -12,6 +12,8 @@ import Notfound from './pages/notfound/index.js';
 
 import ProductDetails from './pages/productDetails/index.js';
 
+import Cart from './pages/cart/index.js';
+
 function App() {
   return (
    <BrowserRouter>
@@ -24,6 +26,8 @@ function App() {
         <Route path='*' element={<Notfound />}></Route>
 
         <Route path='/productDetails' element={<ProductDetails />}></Route>
+
+        <Route path='/cart' element={<Cart />}></Route>
         
       </Routes>
       <Footer />

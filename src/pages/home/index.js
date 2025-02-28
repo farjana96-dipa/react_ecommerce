@@ -18,7 +18,7 @@ const home = () => {
         arrows: true,
         speed: 500,
         infinite:true,
-        slidesToShow: 3,
+        slidesToShow: 5,
         slidesToScroll: 1,
         variableWidth: true, // Adjusts slide width based on content
         responsive: [
